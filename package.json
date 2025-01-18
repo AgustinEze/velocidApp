@@ -1,0 +1,25 @@
+{
+  "name": "velocidapp",
+  "version": "1.0.0",
+  "description": "app to track acceleration",
+  "homepage": "https://github.com/AgustinEze/velocidApp#readme",
+  "bugs": {
+    "url": "https://github.com/AgustinEze/velocidApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinEze/velocidApp.git"
+  },
+  "license": "ISC",
+  "author": "AgustinEze",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^3.4.0",
+    "react-native-permissions": "^5.2.3",
+    "react-native-sensors": "^7.3.6"
+  }
+}
